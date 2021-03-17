@@ -43,3 +43,8 @@ At the Twitter homepage, there are 3 main parts
 3)Widgets: Right handside
 
 In the Feed, it is where show all tweets and user can type a message. This place is the main component we work with.
+
+_______________________________________
+With Slidebar, we can use Material UI icon via installing by `yarn add @material-ui/core`
+- We create an Icon for app
+- The following are other icon of options 
