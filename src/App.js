@@ -7,8 +7,10 @@ import Widgets from "./components/Widgets/Widgets"
 function App() {
     return (
         <div className="app">
-            <h1>Twitter</h1>
             <Slidebar/>
+
+            <Feed/>
+            
             <Widgets/>
 
         </div>
