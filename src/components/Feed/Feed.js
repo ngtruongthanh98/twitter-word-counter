@@ -1,12 +1,13 @@
 import React, { PureComponent } from "react";
+import "./Feed.css";
 
 class Feed extends PureComponent {
     render() {
         return (
-            <div>
-                {/* Header */}
-
-                <h2>Home</h2>
+            <div className="feed">
+                <div className="feed__header">
+                    <h2>Home</h2>
+                </div>
 
                 {/* TweetBox */}
 

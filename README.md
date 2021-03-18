@@ -105,3 +105,8 @@ to margin Slidebar and Feed. I also create a class `slidebar__twitterIcon` in Sl
     padding-left: 20px;
     padding-bottom: 20px;
 }`
+
+We add Widgets component to App.js
+As you see, we can scroll down in News Feed of Twitter, so we make this attribute to our app.
+
+[Code](https://lh3.googleusercontent.com/RLz8juLyqK6GgWBL4mw3F1RQa9aeT_GGgsnwDx19-UVcKd3M6zlCfS-rnYj3D4fsC6OZ4hq9u88faQXJqZ3_myUkVcXYaeuLfuPaGloMCkVKvpKtH88b6CpixQrGR6C9Hnw1gw9Pj6dz8vtcsrWj0IzjT8dhyU0_tiXBb0ZRi_zHkM-YvqrG2XMGI8VDThVi5Jom6VIyP8MECoIZM2m4d0HaR61c7n6UlprVIZZrKni7dxwxJo8S0rtKJ9rCtVyW9qA2VhfqQpgQAQqznIkfBhG2wdfE8Hji-gioqRuZybxGoWK-TyEUzlNXRmRQJAK0fiR12xmotQ_Td7YsV8nbLcSZ1DfMY7XnRhtekrOes6qr13QzwCk3MZVbRPeWxZCKyia9I61opJLtXPupfnYDr_1VfRrDn9RyNVd0hKrA5IQE4HA7TXj4CEQfc4IcEyAHGIbeWiLG2maOPDl1NgtIz3e9aXrY7LwYZAdZMddXu1O1ui53pQpU4I-cyQ2xJmWY5byrKxGANVxrRa3ug0DzWJrip-8Y5lNcgKGaQ_PQpCeW7xv87MECqjpKzzrmBd8i2mk3e1V3fzvcFjl0crTYBIw-SidcNOn2pq4AB5m5lkIeW4BC1ajcku7J82A_bMS9Obf9hkfT41BcBkyXNck5CcvEJK_aBHCuOsi2NqMYqVgdjEc1P5zzujRoBpyJ1xToiZSBajKD3tRP7J1iRo0q2R8=w907-h511-no?authuser=0)
