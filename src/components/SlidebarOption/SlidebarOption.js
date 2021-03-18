@@ -1,12 +1,12 @@
-import React, { PureComponent } from 'react'
-import './SlidebarOption.css';
+import React from "react";
+import "./SlidebarOption.css";
 
-export default class SlidebarOption extends PureComponent {
-    render() {
-        return (
-            <div className="slidebarOption">
-                <h3>Here is an option</h3>
-            </div>
-        )
-    }
+function SlidebarOption({ text, Icon }) {
+    return (
+        <div className="slidebarOption">
+            <h3>{text}</h3>
+        </div>
+    );
 }
+
+export default SlidebarOption;

@@ -9,10 +9,18 @@ class Slidebar extends PureComponent {
             <div className="slidebar">
                 <TwitterIcon />
 
-                <SlidebarOption />
-                <SlidebarOption />
-                <SlidebarOption />
-                <SlidebarOption />
+                <SlidebarOption text="Home"/>
+                <SlidebarOption text="Expore"/>
+                <SlidebarOption text="Notifications"/>
+                <SlidebarOption text="Messages"/>
+                <SlidebarOption text="Lists"/>
+                <SlidebarOption text="Topics"/>
+                <SlidebarOption text="Profile"/>
+                <SlidebarOption text="Messages"/>
+                <SlidebarOption text="More"/>
+
+                {/* Tweet */}
+
             </div>
         );
     }
