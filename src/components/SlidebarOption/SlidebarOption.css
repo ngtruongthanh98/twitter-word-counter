@@ -1,0 +1,22 @@
+.slidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slidebarOption:hover {
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+
+.slidebarOption > .MuiSvgIcon-root {
+    padding: 20px;
+}
+
+.slidebarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
