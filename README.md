@@ -87,3 +87,21 @@ As we see, there are 3 main components: header, message box and post.
 to make a line separated 2 components, Slidebar and Feed.
 
 ![Change CSS Feed](https://lh3.googleusercontent.com/vVIDFIw8gX45Bgr_MPN0RCvjWyhIFU0b_iRBTeJ7Xb-MvUw304Db7chGuM2EXgFsnvoETvEOCn5VoeJAbYubWBH8x48gS4WYIric2Srm8Wuc6VEt0wAiCYO-fwZN1-led-S4R4v04K2IimdY1Ud2lUW6npGNopwp4d-wQLA8Ytdutgd8QEB7-S2vMw-E-zWUQOguWOybFQr7T_SWzIpiboezSlSh10PUFtQ_2gnWPj8Po7UhOBLl_TmyBszCXw1rAnBdLWsIa6ZubhfOzwyn-YYa_w0MEwM9Sv7qxcI3ueqTHvSURO7TRPero1Y_g_cC6YIYlnl6O1mNIZHDRSmATaiAATnV_gXVzHpgc3Oe6SXOfv2nkMrhQKxN32g38YA3p55tbXXCuLoL5GlyVCLUAC5hOnmhM_SpDke1O9ZG0Rm_qW5DQJgIgDukuuVrclLTWbP4rExdtoVfWSETruLH2HAL0iMv_iiX6UL4NmkaSnbKXsOg2LD0in_FA50rTYj83yr_PmlGcWPJsv08-y2t8PP7y637CJrheS6mMOJRu1OYiINXRN1i8JeqW2mDLdXZ5UXH6gHk17WjRp7IhaELqUAbjZQHxrBZu_fEM2cQFv6TPnBvAEuCuzWOknxokXT4ORJv3olZ1ctFdr7lm-4anS1swAeuQD56FCIf5ZuJvVMHgA8QZFJ4H1_8-CRlaXzlpDs0DpnbwRdQgfHb2zBCyb4=w890-h501-no?authuser=0)
+
+In App.css I change CSS code with:
+`.app {
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}`
+
+to margin Slidebar and Feed. I also create a class `slidebar__twitterIcon` in Slidebar.css for the Twitter Icon:
+`.slidebar__twitterIcon {
+    color: var(--twitter-color);
+    font-size: 30px im !important;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}`

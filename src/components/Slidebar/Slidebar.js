@@ -16,7 +16,7 @@ class Slidebar extends PureComponent {
     render() {
         return (
             <div className="slidebar">
-                <TwitterIcon />
+                <TwitterIcon className="slidebar__twitterIcon" />
 
                 <SlidebarOption Icon={HomeIcon} text="Home"/>
                 <SlidebarOption Icon={SearchIcon} text="Expore"/>
