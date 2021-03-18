@@ -66,3 +66,6 @@ I gived data of the content into each SlidebarOption, as the following picture:
   In .slidebarOption, I used "display: flex" to display content and icon in one row. "align-item: center" is for the icon is in center of the content. "cursor: pointer" is for when the cursor mouse moves to the content or icon, it changes to the cursor.
 
   I also make the hover and change CSS of MuiSvgIcon-root and h2 tag. All color I put in App.css, and call colors via variables.
+
+  With Tweet Button, I use the <Button> from Material UI. 
+  ![Button Tweet](https://lh3.googleusercontent.com/5pQvix_nMY3QCDfJbRGyYZ8vCcbUrDaQi1lIcbh6b2kuu0VJek9sFnSeiVGEu0gIWCgpN7HMSgFGwPcyaAxlJ3sZZJTAgEwxzB5jNdRx84iH7Wd8DN1HEpcps-g3-kKmw69HzB27q71Kx9FRbE5fvw8_-IUrIc2EkgGETwkpRehEreuXnbPuu3Y_vwJMUbzl7YPrv6YBtfZJG6ctrS8yX-3L4IBo1HsHnlV_87nmrrfi_KP8NJA6S4GD-H6nsIGDJs3Ope_GxDssmpSL_gqwLl-uAzRQZG7WEh8QmPDRyxbAJBYyNGHdPf7cXmBg9Pk7_e_XjUvEuivfmIgLN2rsOvyBVfTkPnLMUxTC08EVAiMzocYmkx_C9QEnW7CE85LYy2B4nj_TbthfQgXhJQm4WsvpMYa0852xH8lzLTO9CTf3pD1bjIBoQr17eTp93qRaAbnya0O9D28NFxGd6619iLC9qQfXOLyIq79tJ46kAeB48a2aLjZGXE8K3EPV9HK7pYimWGm-WcZUfW9hHfAG_DjAjfQPjPhEYQcGfFfozIDjFDDrjjkSzU6_0O_PE2Y1owrf55xL88Eup59YqQGRuH4aL3zNm9v9Qc4LtGG-LckfJqv37QXHsBH01OJsUQg-xqwEVWytewp43sbnEqK-O9zkhqU3Z2n1YYcA0i9sCckMXf1uhcGHH7_pDMw19AayIgV-X4R9kIIGF22EeB2yuw8=w890-h501-no?authuser=0)
