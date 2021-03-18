@@ -36,7 +36,7 @@ _______________________________________
 
 At the Twitter homepage, there are 3 main parts
 
-![Twitter homepage](https://imgur.com/mH8qYUS)
+![Twitter homepage](https://i.imgur.com/mH8qYUS.png)
 
 1)Slidebar: Left handside
 2)Feed: Middle
