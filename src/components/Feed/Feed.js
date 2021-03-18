@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import "./Feed.css";
+import Post from "./Post/Post";
 import TweetBox from "./TweetBox/TweetBox"
 
 class Feed extends PureComponent {
@@ -12,10 +13,10 @@ class Feed extends PureComponent {
 
                 <TweetBox/>
 
-                {/* Post */}
-                {/* Post */}
-                {/* Post */}
-                {/* Post */}
+                <Post/>
+                <Post/>
+                <Post/>
+
             </div>
         );
     }
