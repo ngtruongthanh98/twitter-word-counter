@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import "./Feed.css";
+import TweetBox from "./TweetBox/TweetBox"
 
 class Feed extends PureComponent {
     render() {
@@ -9,7 +10,7 @@ class Feed extends PureComponent {
                     <h2>Home</h2>
                 </div>
 
-                {/* TweetBox */}
+                <TweetBox/>
 
                 {/* Post */}
                 {/* Post */}
