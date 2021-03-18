@@ -1,24 +1,36 @@
 import React, { useState } from "react";
 import { Avatar, Button } from "@material-ui/core";
-import db from "../../../firebase"
+import db from "../../../firebase";
 import "./TweetBox.css";
 
 function TweetBox() {
     const [tweetMessage, setTweetMessage] = useState("");
     const [tweetImage, setTweetImage] = useState("");
 
+    // const [value, setValue] = useState(0);
+
+    // const handleKeypress = (e) => {
+    //     const value = e.target.value;
+    //     setState({
+    //         ...state,
+    //         [e.target.name]: value
+    //     });
+    // };
+
     const sendTweet = (e) => {
         e.preventDefault();
 
-        db.collection("posts").add({
-            displayName: "Thanh Nguyen",
-            username: "@drazennguyen",
-            verified: true,
-            text: tweetMessage,
-            image: tweetImage,
-            avatar:
-                "https://scontent.fvca1-1.fna.fbcdn.net/v/t1.0-9/157884103_2880654552182638_2842458262959537966_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=jigiLCHGgBMAX-vXngN&_nc_ht=scontent.fvca1-1.fna&oh=36429c6a8803f035a59cf4a0a7bbea33&oe=60778A7C",
-        });
+        if (tweetMessage.length) {
+            db.collection("posts").add({
+                displayName: "Thanh Nguyen",
+                username: "@drazennguyen",
+                verified: true,
+                text: tweetMessage,
+                image: tweetImage,
+                avatar:
+                    "https://scontent.fvca1-1.fna.fbcdn.net/v/t1.0-9/157884103_2880654552182638_2842458262959537966_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=jigiLCHGgBMAX-vXngN&_nc_ht=scontent.fvca1-1.fna&oh=36429c6a8803f035a59cf4a0a7bbea33&oe=60778A7C",
+            });
+        }
 
         setTweetMessage("");
         setTweetImage("");

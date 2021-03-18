@@ -155,3 +155,6 @@ Create project and create app
 
 - After creating successfully:
 ![Collection](https://i.imgur.com/yNdfYuG.png)
+
+_______________________________________
+Now I start to make the word counter
