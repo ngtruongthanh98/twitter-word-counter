@@ -1,9 +1,9 @@
 import React from "react";
 import "./SlidebarOption.css";
 
-function SlidebarOption({ text, Icon }) {
+function SlidebarOption({active, text, Icon }) {
     return (
-        <div className="slidebarOption">
+        <div className={`slidebarOption ${active} && 'sidebarOption--active'`}>
             <Icon/>
             <h3>{text}</h3>
         </div>
