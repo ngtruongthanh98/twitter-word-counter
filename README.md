@@ -162,3 +162,17 @@ Now I start to make the word counter, go to TweetBox component.
 Easily, to count how many characters are there in the tweet box, I just show tweetMessage.length
 
 ![Count the number of words](https://i.imgur.com/05OEErb.png)
+
+We come back to the requirement:
+I call number of words is N
+- If N <= 50: show N
+- If 40 <= N < 50: show (50 - N) -> colored yellow
+- If N > 50: show (N - 50) -> colored red
+- Bonus: over-typed word -> turn red for remainders
+
+At first, I let Max = 50;
+I set 2 conditions <= 50 and > 50:
+
+`
+<p>{tweetMessage.length <= Max ? tweetMessage.length : Max-tweetMessage.length}</p>
+`

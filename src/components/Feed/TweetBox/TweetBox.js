@@ -9,6 +9,8 @@ function TweetBox() {
 
     const [count, setCount] = useState(0);
 
+    let Max = 20;
+
     const sendTweet = (e) => {
         e.preventDefault();
 
@@ -54,7 +56,9 @@ function TweetBox() {
                 />
             </form>
 
-            <p>{tweetMessage.length}</p>
+            {/* <p>{tweetMessage.length}</p> */}
+
+            <p>{tweetMessage.length <= Max ? tweetMessage.length : Max-tweetMessage.length}</p>
 
             <Button
                 onClick={sendTweet}
