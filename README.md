@@ -193,3 +193,12 @@ Results:
 
 52 characters:
 ![52 char](https://i.imgur.com/sEZlXDy.png)
+
+______________________________________
+
+Now I create the UI for word counter. I use Ant design because it has the circle progres, we can use it for the project.
+install antd package:
+`yarn add antd`
+
+import to TweetBox Component:
+`import { Progress } from 'antd';`

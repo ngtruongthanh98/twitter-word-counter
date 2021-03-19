@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Avatar, Button } from "@material-ui/core";
 import db from "../../../firebase";
 import "./TweetBox.css";
+import { Progress } from "antd";
+import 'antd/dist/antd.css';
+
 
 function TweetBox() {
     const [tweetMessage, setTweetMessage] = useState("");
@@ -57,14 +60,26 @@ function TweetBox() {
                 />
             </form>
 
+            {/* <p>
+                {tweetMessage.length <= Max
+                    ? tweetMessage.length >= Near
+                        ? Max - tweetMessage.length
+                        : tweetMessage.length
+                    : Max - tweetMessage.length}
+            </p> */}
 
-            <p>
-                {
-                    tweetMessage.length <= Max ? 
-                        (tweetMessage.length >= Near ? (Max - tweetMessage.length) : (tweetMessage.length) ) :
-                        ( Max-tweetMessage.length)
+            <Progress
+                type="circle"
+                percent={tweetMessage.length*100/Max}
+                width={30}
+                format={() => 
+                    tweetMessage.length <= Max
+                        ? tweetMessage.length >= Near
+                            ? Max - tweetMessage.length
+                            : tweetMessage.length
+                        : Max - tweetMessage.length
                 }
-            </p>
+            />
 
             <Button
                 onClick={sendTweet}
