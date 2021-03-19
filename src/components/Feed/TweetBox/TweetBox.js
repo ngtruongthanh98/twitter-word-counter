@@ -3,8 +3,7 @@ import { Avatar, Button } from "@material-ui/core";
 import db from "../../../firebase";
 import "./TweetBox.css";
 import { Progress } from "antd";
-import 'antd/dist/antd.css';
-
+// import "antd/dist/antd.css";
 
 function TweetBox() {
     const [tweetMessage, setTweetMessage] = useState("");
@@ -68,26 +67,30 @@ function TweetBox() {
                     : Max - tweetMessage.length}
             </p> */}
 
-            <Progress
-                type="circle"
-                percent={tweetMessage.length*100/Max}
-                width={30}
-                format={() => 
-                    tweetMessage.length <= Max
-                        ? tweetMessage.length >= Near
-                            ? Max - tweetMessage.length
-                            : tweetMessage.length
-                        : Max - tweetMessage.length
-                }
-            />
+            <div className="tweetBox__footer">
+                <Progress
+                    type="circle"
+                    percent={(tweetMessage.length * 100) / Max}
+                    width={30}
+                    format={() =>
+                        tweetMessage.length <= Max
+                            ? tweetMessage.length >= Near
+                                ? Max - tweetMessage.length
+                                : tweetMessage.length
+                            : Max - tweetMessage.length
+                    }
+                />
 
-            <Button
-                onClick={sendTweet}
-                type="submit"
-                className="tweetBox__tweetButton"
-            >
-                Tweet
-            </Button>
+                {" "}
+
+                <Button
+                    onClick={sendTweet}
+                    type="submit"
+                    className="tweetBox__tweetButton"
+                >
+                    Tweet
+                </Button>
+            </div>
         </div>
     );
 }

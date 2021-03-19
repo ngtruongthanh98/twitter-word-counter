@@ -202,3 +202,9 @@ install antd package:
 
 import to TweetBox Component:
 `import { Progress } from 'antd';`
+
+When i load antd CSS file, `import "antd/dist/antd.css";` there is a conflit between Antd and Material UI, so the web app lost all icons.
+I choose to the way not to import antd.css.
+
+![UI for word counter](https://i.imgur.com/pMSxFHV.png)
+
