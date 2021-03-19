@@ -157,4 +157,8 @@ Create project and create app
 ![Collection](https://i.imgur.com/yNdfYuG.png)
 
 _______________________________________
-Now I start to make the word counter
+Now I start to make the word counter, go to TweetBox component.
+
+Easily, to count how many characters are there in the tweet box, I just show tweetMessage.length
+
+![Count the number of words](https://i.imgur.com/05OEErb.png)
