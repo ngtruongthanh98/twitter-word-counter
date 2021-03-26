@@ -208,3 +208,10 @@ I choose to the way not to import antd.css.
 
 ![UI for word counter](https://i.imgur.com/pMSxFHV.png)
 
+
+_______________________________________
+
+I change CSS in this className
+![header__post CSS](https://i.imgur.com/XFREDqt.png)
+![Code JS](https://i.imgur.com/fAP1cw1.png)
+![CSS](https://i.imgur.com/MNUKqwy.png)
