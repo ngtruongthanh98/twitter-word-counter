@@ -1,5 +1,7 @@
 # twitter-word-counter
 
+Demo link: `https://twitter-word-counter.web.app/`
+
 Implement Twitter's word counter UI (see attached image).
 
 ![Twitter's work counter](https://gist.githubusercontent.com/huygn/ceda027d1f679ba2a99a2630815e5ff7/raw/d860a2917372c8f155e9a2c20161d9076e4b8340/image.jpg)
