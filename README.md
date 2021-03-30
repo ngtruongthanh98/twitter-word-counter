@@ -217,3 +217,23 @@ I change CSS in this className
 ![header__post CSS](https://i.imgur.com/XFREDqt.png)
 ![Code JS](https://i.imgur.com/fAP1cw1.png)
 ![CSS](https://i.imgur.com/MNUKqwy.png)
+
+
+__________________________________________
+How to deploy?
+
+1) `firebase login`
+
+2) `firebase init`
+
+2.1) Hosting → spacebar 
+
+2.2) Use existing project
+
+3) `build`
+
+4) Read and press y
+
+5) `npm run build` 
+
+6) `firebase deploy`
